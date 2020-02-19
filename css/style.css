@@ -425,11 +425,17 @@ img {
 
     .table tbody tr td {
         text-align: right;
+        padding: 1rem 1.5rem;
+    }
+
+    tbody tr:nth-child(1) td::before {
+        position: absolute;
+        margin-left: -30%;
     }
 
     td:before {
         position: absolute;
-        margin-left: -130px;
+        margin-left: -40%;
     }
 
     td:nth-of-type(1) {
@@ -456,4 +462,5 @@ img {
         content: "PREMIUM";
         text-align: left;
     }
+
 }
